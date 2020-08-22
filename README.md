@@ -1,7 +1,7 @@
 # classification_vggnet
 이 실험은 Tensorfloww Library API을 기반으로 Colab이 제공하는 GPU를 사용하였습니다. 실험 결과로 (Train, Validation)Accuracy, Loss, feature map, Grad CAM을 확인할 수 있었습니다.
 
-#### - 데이터는 kaggle에서 제공하는 Cats-vs-Dogs 데이터를 이용하여 2만 5천장 중 1만 7천개를 train_data, 4천개를 validation_data, test_data 4000으로 나누어 실험.
+#### - 데이터는 kaggle에서 제공하는 Cats-vs-Dogs 데이터를 이용하여 2만 5천장 중 1만 7천장을 train_data, 4천장을 validation_data, test_data 4000으로 나누어 실험.
 
 ### VGG16
 VggNet은 2014년 ILSVRC에서 2위를 차지했지만 훨씬 단순한 구조로 이해와 변형이 용이하다는 장점이 있다.
